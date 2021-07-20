@@ -1,97 +1,36 @@
 body {
-  background-color: white;
-}
-
-h1 {
-  display: inline-block;
-  font-family: cursive;
-}
-
-#title {
-  display: inline-flex;
-  padding-left: 5%;
-  margin-top: 0;
+  background-color: cornsilk;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #pizza {
-  display: flex;
-  max-width: 60%;
-  margin-top: 0%;
-  margin: 10%;
-  padding-left: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
 }
-
-#fb {
-  display: inline-block;
-  position: relative;
-  margin-left: 80%;
-}
-
-hr {
-  border: gray;
-  border-style: solid;
-  border-width: 30%;
-  max-width: 80%;
-}
-
-#print {
-  display: inline-block;
-  position: relative;
-  margin-left: 80%;
+h1 {
+  justify-content: center;
 }
 
 header {
-  margin: 60px;
-  padding: 10px;
-  margin-top: 0;
-}
-
-p {
   display: flex;
-  justify-content: center;
-  color: gray;
-  flex-wrap: wrap;
-  margin-top: 0%;
 }
 
-button {
-  display: inline-block;
-  position: relative;
-  margin-left: 80%;
-  background-color: orange;
-  color: white;
+#icon {
+  max-width: 30px;
+  max-height: 30px;
+}
+#logo {
+  max-width: 60px;
+  max-height: 60px;
+}
+p {
+  text-align: center;
+  font-size: 15px;
 }
 
 h6 {
-  display: flex;
-  font-size: 0.67em;
-  margin-block-start: auto;
-  margin-block-end: auto;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
-  font-weight: bold;
-}
-
-#list {
-  display: flex;
-  max-width: 60%;
-  margin: 10%;
-  padding-left: 10%;
-}
-
-footer {
-  display: inline-flex;
-  position: relative;
-  margin-left: 30%;
-}
-
-h4 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: bold;
-  font-size: 100%;
-  padding-left: 10%;
-}
-
-#van {
-  padding-left: 10%;
+  display: inline-block;
+  text-align: left;
 }
